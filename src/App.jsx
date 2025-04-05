@@ -1,0 +1,1 @@
+export default function App() { return <div className='text-center p-10 text-xl'>Welcome to Harsha Immersio Tech Enterprises - Global Ship Taxi Services</div>; }
