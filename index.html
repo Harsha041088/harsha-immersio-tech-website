@@ -1,11 +1,176 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Harsha Immersio Tech</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsha Immersio Tech Enterprises</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(0,0,0,0.6);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      margin-bottom: 10px;
+      color: #00dffc;
+    }
+
+    header h2 {
+      font-weight: normal;
+      color: #ffdd57;
+      margin-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00dffc;
+    }
+
+    .intro, .services, .cta, .footer {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .intro p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .services {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .services h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #ffdd57;
+    }
+
+    .service-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 30px;
+      border-radius: 12px;
+      width: 280px;
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    .box h4 {
+      color: #00dffc;
+      margin-bottom: 10px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 30px;
+      background: #ff4136;
+      padding: 15px 30px;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #ff851b;
+    }
+
+    .footer {
+      font-size: 0.9em;
+      background-color: #000;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Harsha Immersio Tech</h1>
-  <p>This site is live on GitHub Pages!</p>
+
+  <header>
+    <h1>Harsha Immersio Tech Enterprises</h1>
+    <h2>India’s First Intra & Inter-City Ship Taxi Service 🚤</h2>
+  </header>
+
+  <nav>
+    <a href="#intro">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="intro" id="intro">
+    <p>
+      Welcome to a new era of water mobility. At <strong>Harsha Immersio Tech</strong>, we’re transforming transportation with fast, stylish, and efficient ship taxis — helping people sail across cities and states like never before.
+      Whether it's your daily commute or a special trip, we make sure your journey is smooth, swift, and sensational. 🚢💨
+    </p>
+  </section>
+
+  <section class="services" id="services">
+    <h3>Our Ship Taxi Services</h3>
+    <div class="service-box">
+      <div class="box">
+        <h4>🛥️ Intra-City Rides</h4>
+        <p>Quick hop across the river or coastline — perfect for commuters in coastal cities.</p>
+      </div>
+      <div class="box">
+        <h4>🌆 Inter-City Transfers</h4>
+        <p>Sail from one city to another in style, skipping traffic and saving hours!</p>
+      </div>
+      <div class="box">
+        <h4>🗺️ Inter-State Services</h4>
+        <p>Plan long-distance water travel with comfort, luxury, and speed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h3>Let’s Make Waves 🌊</h3>
+    <p>Book your first ride or contact us to become a partner or investor. Harsha’s got big plans. Let’s sail together!</p>
+    <a href="#">Contact Us</a>
+  </section>
+
+  <section class="footer">
+    <p>&copy; 2025 Harsha Immersio Tech Enterprises. All rights reserved. Made with 💙 by Harsha.</p>
+  </section>
+
 </body>
 </html>
